@@ -1,5 +1,7 @@
 #SQL Retail Sales Analysis - P1
+-- Create Database
 CREATE database sql_projects;
+
 -- Create TABLE
 drop table if exists retail_sales;
 create table retail_sales 
@@ -17,6 +19,7 @@ total_sale float
 );
 select * from retail_sales
 limit 10;
+
 use sql_projects;
 SHOW TABLES;
 select count(*) from retail_sales;
